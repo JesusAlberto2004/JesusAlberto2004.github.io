@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/4547484.jpg');
+    animation: animateBackground 60s linear infinite;
+    color: #fff;
+    background-size: 100%;
+ 
+}
+@keyframes animateBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+  
+  .card {
+    background-color: #0d1012;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-body {
+    color: #d8dee9;
+  }
+  
+  h1 {
+    color: #88c0d0;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  label {
+    color: #88c0d0;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    background-color: #1d1f21;
+    color: #d8dee9;
+    border: none;
+    border-bottom: 2px solid #88c0d0;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #88c0d0;
+    color: #1d1f21;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-secondary {
+    background-color: #2e3440;
+    color: #d8dee9;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    background-color: #4c566a;
+  }
+  

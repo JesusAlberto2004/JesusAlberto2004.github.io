@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+
+body {
+    background-image: url('https://i.ytimg.com/vi/w26m0KzvZy4/maxresdefault.jpg');
+    animation: animateBackground 60s linear infinite;
+    color: #fff;
+}
+@keyframes animateBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+article{
+    color: #fff;
+
+}
+tr{
+    background-color: #fff;
+    color: #000000;
+
+
+}
+
+.card{
+    background-image: url("/Resourcers/fondo2.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.form-control{
+    background-image: url("/Resourcers/transparente.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.5
+    }

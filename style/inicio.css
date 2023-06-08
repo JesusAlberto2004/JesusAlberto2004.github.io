@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+  }
+  
+  body {
+    background-image: url('https://c.wallhere.com/photos/9c/d4/home_photography_interior_secondlife_decorating_decor-880545.jpg!d');
+    animation: animateBackground 60s linear infinite;
+    color: #080202;
+}
+@keyframes animateBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+
+  
+  
+  /* Estilos para el formulario */
+  .module {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-bottom: 51px;
+  }
+  
+  
+  
+  

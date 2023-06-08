@@ -1,0 +1,14 @@
+import { Logout } from "./global.js";
+
+const btnCerrarSesion = document.getElementById('logoutbtn');
+
+btnCerrarSesion.addEventListener('click', async () => {
+  try {
+    await Logout();
+    alert("Sesión cerrada correctamente.");
+    window.location.href="/index.html";
+  } catch (error) {
+    console.error(error);
+    alert("Ocurrió un error al cerrar la sesión.");
+  }
+});
